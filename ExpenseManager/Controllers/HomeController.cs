@@ -9,9 +9,12 @@ namespace ExpenseManager.Controllers
 {
     public class HomeController : ApiController
     {
+        [Authorize]
         public IHttpActionResult Get()
         {
-            return Ok("Hello Web Api");
+            var user = Request.GetOwinContext().Authentication.User;
+            return Ok("Hello Web Api From " + user.Identity.Name);
+            //return Ok("Hello Web Api From ");
         }
     }
 }
