@@ -9,12 +9,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseManager.Tests", "Exp
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{367F1E49-559B-48E3-BE28-F39EECCE2BB3}"
 	ProjectSection(SolutionItems) = preProject
-		Database\1_tbl_User.sql = Database\1_tbl_User.sql
-		Database\2_tbl_Category.sql = Database\2_tbl_Category.sql
-		Database\3_tbl_Account.sql = Database\3_tbl_Account.sql
-		Database\4_tbl_SubCategory.sql = Database\4_tbl_SubCategory.sql
-		Database\5_tbl_AccountUser.sql = Database\5_tbl_AccountUser.sql
-		Database\6_tbl_Expense.sql = Database\6_tbl_Expense.sql
+		Database\00_Database_DropCreate_ExpenseManager.sql = Database\00_Database_DropCreate_ExpenseManager.sql
+		Database\100_InitializeData.sql = Database\100_InitializeData.sql
+		Database\SQLBatch_ExpenseManager.sql = Database\SQLBatch_ExpenseManager.sql
+		Database\tbl_Account.sql = Database\tbl_Account.sql
+		Database\tbl_AccountUser.sql = Database\tbl_AccountUser.sql
+		Database\tbl_Category.sql = Database\tbl_Category.sql
+		Database\tbl_CategoryMapping.sql = Database\tbl_CategoryMapping.sql
+		Database\tbl_Expense.sql = Database\tbl_Expense.sql
+		Database\tbl_Payment.sql = Database\tbl_Payment.sql
+		Database\tbl_PaymentType.sql = Database\tbl_PaymentType.sql
+		Database\tbl_SubCategory.sql = Database\tbl_SubCategory.sql
+		Database\tbl_User.sql = Database\tbl_User.sql
 	EndProjectSection
 EndProject
 Global
