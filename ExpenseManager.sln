@@ -7,6 +7,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseManager", "ExpenseMa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseManager.Tests", "ExpenseManager.Tests\ExpenseManager.Tests.csproj", "{BB454A4A-E2B7-4397-B320-06997F1922BD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{367F1E49-559B-48E3-BE28-F39EECCE2BB3}"
+	ProjectSection(SolutionItems) = preProject
+		Database\1_tbl_User.sql = Database\1_tbl_User.sql
+		Database\2_tbl_Category.sql = Database\2_tbl_Category.sql
+		Database\3_tbl_Account.sql = Database\3_tbl_Account.sql
+		Database\4_tbl_SubCategory.sql = Database\4_tbl_SubCategory.sql
+		Database\5_tbl_AccountUser.sql = Database\5_tbl_AccountUser.sql
+		Database\6_tbl_Expense.sql = Database\6_tbl_Expense.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
