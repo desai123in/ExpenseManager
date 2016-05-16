@@ -1,6 +1,21 @@
 USE [ExpenseManager]
 GO
 
+
+EXEC [dbo].[InsertUser]	@UserName = N'Admin',@Email = N'ddesai.us@gmail.com',@UpdateUserId = 1
+go
+
+EXEC [dbo].[InsertUser]	@UserName = N'AvaniDesai',@Email = N'addesai5@yahoo.com',@UpdateUserId = 1
+go
+
+USE [ExpenseManager]
+GO
+
+EXECUTE [dbo].[InsertAccount]    'DesaiAccount','AvaniDesai','addesai5@yahoo.com',1
+GO
+
+
+
 INSERT INTO [dbo].[Category]
            ([Name])
 

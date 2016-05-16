@@ -14,13 +14,19 @@
 :r $(path)\tbl_AccountExpense.sql
 
 :r $(path)\schema_aud.sql
+:r $(path)\tbl_aud.Account.sql
+:r $(path)\tbl_aud.User.sql
 :r $(path)\tbl_aud.AccountCategory.sql
 :r $(path)\tbl_aud.AccountCategoryMapping.sql
 :r $(path)\tbl_aud.AccountExpense.sql
 :r $(path)\tbl_aud.AccountExpenseType.sql
 :r $(path)\tbl_aud.AccountPayment.sql
 :r $(path)\tbl_aud.AccountUser.sql
+:r $(path)\sp_aud.InsertAudit.sql
+
+:r $(path)\sp_GetAccountExpenses.sql
+:r $(path)\sp_InsertAccount.sql
+:r $(path)\sp_InsertUser.sql
+:r $(path)\sp_InsertAccountUser.sql
 
 :r $(path)\100_InitializeData.sql
-:r $(path)\sp_GetAccountExpenses.sql
-
