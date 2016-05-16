@@ -37,9 +37,10 @@ BEGIN
 	end
 	else if @TableName = 'AccountUser'
 	begin		
+		
 		INSERT INTO [aud].[AccountUser] ([Id],[AccountId],[UserId],[UpdateAction],[UpdatedOn],[UpdatedBy])
 		select [Id],[AccountId],[UserId],@Action ,getdate() ,@UpdateUserId
-		from AccountUser where Id = @RowId
+		from dbo.AccountUser where Id = @RowId
 	end
 
 END
