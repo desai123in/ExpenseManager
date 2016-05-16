@@ -17,7 +17,7 @@ INSERT INTO [dbo].[Category]
 GO
 
 
-INSERT INTO [dbo].[SubCategory]
+INSERT INTO [dbo].[ExpenseType]
            ([Name])
 
      select 'Mortgage' as Name
@@ -50,8 +50,5 @@ INSERT INTO [dbo].[SubCategory]
 	 
 go
 
-INSERT INTO [dbo].[CategoryMapping] (CategoryId,SubCategoryId)
+--insert into dbo.[User] (UserName,Email)
 
-select c.id as CategoryId, sc.id as SubCategoryId
-from Category c,SubCategory sc
-where c.Name = 'House' and sc.Name = 'Mortgage'
